@@ -39,9 +39,9 @@ const TitleBanner = () => {
                     },
 
                 ]}>
-                <ParallaxBannerLayer className="titleLayer"  speed={-15}>
+                <ParallaxBannerLayer className="titleLayer"  speed={0}>
                     <div className="titleContainer">
-                        <img src="./SEVEN_logo.svg" className="logoImg"/>
+                        <img src="./SEVEN_logo.svg" className="logoImg" alt=""/>
                         <h1>SUTD's Premier Entrepreneurship Network</h1>
                     </div>
                 </ParallaxBannerLayer>
