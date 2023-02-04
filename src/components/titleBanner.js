@@ -8,7 +8,7 @@ import layer4 from '../assets/mountain4.png'
 const TitleBanner = () => {
     return (
         <div className="titleBanner">
-            <ParallaxBanner style={{ aspectRatio: '2 / 1' }} className="parallaxBanner"
+            <ParallaxBanner style={{ aspectRatio: '2 / 1'}} className="parallaxBanner"
                 layers={[
                     {
                         image: layer1,
