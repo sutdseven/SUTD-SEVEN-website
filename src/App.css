@@ -302,6 +302,18 @@ p {
     font-size: 0.8rem;
 
   }
+  .eventDetailsContainer {
+    flex-direction: column;
+  }
+
+  .eventDetailsText {
+    width: 100%;
+    text-align: center;
+  }
+  .eventImgContainer {
+    width: 100%;
+    margin: 18px 0;
+  }
   .contactContainer {
     flex-direction: column;
     justify-content: center;
