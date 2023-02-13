@@ -5,6 +5,8 @@ import { useEffect, useState } from 'react';
 import TitleBanner from './components/titleBanner';
 import About from './components/about';
 import Contact from './components/contact';
+import Exco from './components/exco';
+import Events from './components/events';
 
 function App() {
 
@@ -13,16 +15,9 @@ function App() {
       <TitleBanner />
       <div className="content">
       <About />
+      <Events />
+      <Exco />
       <Contact />
-      
-      <h2>Hello World</h2>
-      <h2>Hello World</h2>
-      <h2>Hello World</h2>
-      <h2>Hello World</h2>
-      <h2>Hello World</h2>
-      <h2>Hello World</h2>
-      <h2>Hello World</h2>
-      <h2>Hello World</h2>
       </div>
       
     </div>

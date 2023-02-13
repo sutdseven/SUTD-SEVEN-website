@@ -4,13 +4,12 @@ html {
   font-family: 'Mulish', sans-serif;
   background-color: #34150e;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 p {
   font-size: 18px;
 }
-
-
 
 .titleBanner {
   width: 100vw;
@@ -47,7 +46,7 @@ p {
 }
 
 .section {
-  margin-bottom: 64px;
+  margin-bottom: 54px;
 }
 
 .aboutContainer {
@@ -82,7 +81,118 @@ p {
 
 }
 
+.excoContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.excoContainer h2 {
+  margin: 8px;
+  color: #ffb758;
+  font-size: 36px;
+}
 
+.batchTitle {
+  color: #ffffff;
+  margin: 8px;
+}
+
+.teamContainer {
+  margin: 28px 200px;
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.teamMember {
+  width: 150px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.teamMember h3 {
+  margin: 8px 6px;
+  font-size: 1rem;
+  
+}
+.teamMember p {
+  font-weight: 400;
+  margin: 8px 6px;
+  font-size: 16px;
+}
+
+.excoImg {
+  width: 150px;
+  margin-bottom: 16px;
+}
+
+.eventsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+}
+
+
+.eventsTitleHeader {
+  color: #ffffff;
+  font-size: 32px;
+  color: #ffb758;
+}
+
+.eventSelectionContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 32px;
+  
+}
+
+
+.eventSelector {
+  font-size: 18px;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 180px;
+  background-color: #220c07;
+  color: #ffffff;
+}
+
+.eventDetailsContainer {
+  background-color: #220c07;
+  border-radius: 12px;
+  padding: 24px 36px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.eventDetailsText {
+  text-align: left;
+  color: #ffffff;
+  width: 50%;
+}
+
+.eventImgContainer {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eventImg {
+  width: 100%;
+  height: auto;
+}
 .contactContainer {
   background-color: #220c07;
   border-radius: 12px;
@@ -166,6 +276,32 @@ p {
     font-size: 32px;
   }
 
+  .excoContainer h2 {
+    font-size: 24px;
+  }
+
+  .batchTitle {
+    font-size: 18px;
+  }
+  .teamContainer {
+    margin: 28px 60px;
+  }
+  
+  .teamMember {
+    width: 80px
+  }
+ 
+  .excoImg {
+    width: 80px
+  }
+
+
+  .eventSelector {
+    width: 120px;
+    height: 56px;
+    font-size: 0.8rem;
+
+  }
   .contactContainer {
     flex-direction: column;
     justify-content: center;
@@ -185,8 +321,11 @@ p {
 
   }
 
+  .contactTitleContainer {
+    border-right: none;
+  }
+
   .contactInfoContainer {
-    border-left: none;
     border-top: 2px solid #ffb758;
     width: 50%;
     display: flex;
