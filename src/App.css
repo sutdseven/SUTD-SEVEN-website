@@ -102,7 +102,7 @@ p {
   margin: 28px 200px;
   display: flex;
   justify-content: center;
-  gap: 36px;
+  gap: 32px;
   align-items: flex-start;
   flex-wrap: wrap;
 }
@@ -333,7 +333,7 @@ p {
   }
 
   .eventDetailsTitle {
-    font-size: max(2em, 18px);
+    font-size: max(4vw, 18px);
   }
   .eventDetailsContainer {
     flex-direction: column;
