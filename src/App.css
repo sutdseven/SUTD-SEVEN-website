@@ -31,8 +31,8 @@ p {
   margin-top: 10vw;
 }
 
-.titleContainer {
-  font-size: 1.5vw;
+.titleContainer h1 {
+  font-size: 2em;
 }
 
 .logoImg {
@@ -58,7 +58,7 @@ p {
 }
 
 .aboutContainer h1 {
-  font-size: 48px;
+  font-size: max(3em, 18px);
   margin: 16px 0;
   color:#ffb758;
 }
@@ -90,7 +90,7 @@ p {
 .excoContainer h2 {
   margin: 8px;
   color: #ffb758;
-  font-size: 36px;
+  font-size: 32px;
 }
 
 .batchTitle {
@@ -267,17 +267,44 @@ p {
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 700px) {
   p {
     font-size: 12px;
   }
 
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+
+  }
+
+  .titleBanner {
+    width: 170vw
+  }
+  
+  .titleContainer {
+    width: 75vw;
+  }
+
+  .titleContainer h1 {
+    font-size: max(5.5vw, 18px);
+    margin: max(1.2em, 14px), 0;
+    
+  }
+
+  .logoImg {
+    width: max(30vw, 96px);
+  }
+
   .aboutContainer h1 {
-    font-size: 32px;
+    font-size: max(2em, 18px);
   }
 
   .excoContainer h2 {
-    font-size: 24px;
+    font-size: max(2em, 18px);
   }
 
   .batchTitle {
@@ -301,6 +328,10 @@ p {
     height: 56px;
     font-size: 0.8rem;
 
+  }
+
+  .eventDetailsTitle {
+    font-size: max(2em, 18px);
   }
   .eventDetailsContainer {
     flex-direction: column;
