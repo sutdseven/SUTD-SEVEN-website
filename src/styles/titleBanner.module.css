@@ -1,0 +1,27 @@
+.bannerContainer {
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffb758;
+    display: flex;
+}
+
+.titleLayer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.titleContent {
+    transform: translateY(20vh);
+    width: 80%;
+}
+
+.titleContent h1 {
+    font-size: 1.8em;
+}
+
+.logo {
+    width: max(180px,30%);
+}
