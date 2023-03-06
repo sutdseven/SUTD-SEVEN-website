@@ -26,39 +26,6 @@ p {
 }
 
 
-.teamContainer {
-  margin: 28px 0;
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-
-.teamMember {
-  width: 150px;
-  text-align: center;
-  color: #ffffff;
-}
-
-.teamMember h3 {
-  margin: 8px 6px;
-  font-size: 1rem;
-  
-}
-.teamMember p {
-  font-weight: 400;
-  margin: 8px 6px;
-  font-size: 16px;
-}
-
-.excoImg {
-  width: 100px;
-  margin-bottom: 16px;
-}
-
-
-
 .contactContainer {
   background-color: #220c07;
   border-radius: 12px;

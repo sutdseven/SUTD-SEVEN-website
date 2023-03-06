@@ -13,3 +13,33 @@
 .container h3 {
     color: #ffffff;
 }
+
+.memberContainer {
+    margin: 28px 0;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.member {
+    width: 150px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.member h3 {
+    margin: 8px 6px;
+    font-size: 1rem;
+}
+
+.member p {
+    font-weight: 400;
+    margin: 8px 6px;
+}
+
+.member img {
+    width: 100px;
+    margin-bottom: 16px;
+}
