@@ -1,6 +1,8 @@
+import excoCSS from '../styles/exco.module.css'
+
 const Exco = () => {
     return ( 
-        <div className="excoContainer section">
+        <div className={excoCSS.container}>
             <h2>EXCO</h2>
             <h3 className="batchTitle">2023 - PIONEER</h3>
             <div className="teamContainer">

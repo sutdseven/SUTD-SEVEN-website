@@ -37,7 +37,6 @@ const Events = () => {
                 <div className={eventsCSS.cardImg}>
                     <img alt="" src="imgPlaceholder.png" />
                 </div>
-                
             </div>
         </div>
      );

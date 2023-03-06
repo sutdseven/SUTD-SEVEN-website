@@ -12,7 +12,7 @@ h2 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   color: #ffffff;
 }
 
@@ -26,29 +26,11 @@ p {
 }
 
 
-
-.excoContainer {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.excoContainer h2 {
-  margin: 8px;
-  color: #ffb758;
-  font-size: 32px;
-}
-
-.batchTitle {
-  color: #ffffff;
-  margin: 8px;
-}
-
 .teamContainer {
-  margin: 28px 200px;
+  margin: 28px 0;
   display: flex;
   justify-content: center;
-  gap: 32px;
+  gap: 16px;
   align-items: flex-start;
   flex-wrap: wrap;
 }
@@ -71,7 +53,7 @@ p {
 }
 
 .excoImg {
-  width: 150px;
+  width: 100px;
   margin-bottom: 16px;
 }
 

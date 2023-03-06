@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 54px;
+}
+
+.container h2 {
+    margin: 8px;
+    color: #ffb758;
+}
+
+.container h3 {
+    color: #ffffff;
+}

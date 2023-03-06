@@ -25,11 +25,11 @@
 .cardText {
     text-align: left;
     color: #ffffff;
-    width: 55%;
+    width: 60%;
 }
 
 .cardImg {
-    width: 35%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
